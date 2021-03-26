@@ -1,24 +1,37 @@
-import logo from './logo.svg';
+import React from "react";
+import { BrowserRouter, Switch,Route } from "react-router-dom";
 import './App.css';
+import Login from '../src/pages/Login'
+import Home from "./pages/Home";
+import Technology from "./pages/category/Technology";
+import Profile from "./pages/user/Profile";
+import Books from "./pages/user/Books";
+import Outofdate from './pages/user/Outofdate';
+import Waiting from "./pages/user/Waiting";
+import Waitingborrow from "./pages/user/Waitingborrow";
+import Addbooks from "./pages/user/Addbooks";
+import Borrowpage from "./pages/user/Borrowpage";
+import Confrim from "./pages/user/Confrim";
+import Description from './pages/Description'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <BrowserRouter>
+    <Switch>
+    <Route exact path="/" component={Login}/>
+    <Route path="/home" component={Home}/>
+    <Route path="/technology" component={Technology}/>
+    <Route path="/profile" component={Profile}/>
+    <Route path="/books" component={Books}/>
+    <Route path="/outofdate" component={Outofdate}/>
+    <Route path="/description" component={Description}/>
+    <Route path="/waiting" component={Waiting}/>
+    <Route path="/waitingborrow" component={Waitingborrow}/>
+    <Route path="/addbook" component={Addbooks}/>
+    <Route path="/borrow" component={Borrowpage}/>
+    <Route path="/confrim" component={Confrim}/>
+    </Switch>
+    </BrowserRouter>
   );
 }
 
