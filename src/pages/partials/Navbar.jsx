@@ -39,9 +39,11 @@ export default class Navbar extends Component {
               <div className="flex justify-end items-center relative">
                 <div className="flex mr-4 items-center">
                   <div className="inline-block mr-2 mt-2">
-                    <button type="button" className="focus:outline-dark text-gray-500 text-md py-2.5 px-5 rounded-full py-6 px-12 border border-gray-400 hover:bg-blue-200">
-                      <p>Login</p>
+                    <Link to="/">
+                    <button type="button" className="focus:outline-dark text-gray-500 text-md py-2.5 px-5 rounded-full py-6 px-12 border border-gray-400 hover:bg-blue-800 hover:text-white">
+                      <p className="">Login</p>
                     </button>
+                    </Link>
                   </div>
                   <div className="block relative">
                     <button type="button" className="inline-block py-2 px-3 hover:bg-gray-200 rounded-full relative">
