@@ -277,53 +277,53 @@ export default class Homepartials extends Component {
             <ul className="space-y-2 text-sm">
               <li>
                 <Link to="/technology">
-                <a className="flex items-center space-x-3 text-gray-700 p-2 rounded-md font-medium focus:shadow-outline">
+                <p className="flex items-center space-x-3 text-gray-700 p-2 rounded-md font-medium focus:shadow-outline">
                   <span>
                     <img src="https://res.cloudinary.com/setiyawan/image/upload/v1614382507/plugin/Group_18_phcpwz.png" alt="" />
                   </span>
                   <span>Technology</span>
-                </a>
+                </p>
                 </Link>
               </li>
               <li>
-                <a  className="flex items-center space-x-3 text-gray-700 p-2 rounded-md font-medium focus:shadow-outline">
+                <p  className="flex items-center space-x-3 text-gray-700 p-2 rounded-md font-medium focus:shadow-outline">
                   <span>
                     <img src="https://res.cloudinary.com/setiyawan/image/upload/v1614382583/plugin/Group_17_osparj.png" alt="" />
                   </span>
                   <span>History</span>
-                </a>
+                </p>
               </li>
               <li>
-                <a  className="flex items-center space-x-3 text-gray-700 p-2 rounded-md font-medium focus:shadow-outline">
+                <p  className="flex items-center space-x-3 text-gray-700 p-2 rounded-md font-medium focus:shadow-outline">
                   <span>
                     <img src="https://res.cloudinary.com/setiyawan/image/upload/v1614382768/plugin/Group_16_s5bfuj.png" alt="" />
                   </span>
                   <span>Politics</span>
-                </a>
+                </p>
               </li>
               <li>
-                <a  className="flex items-center space-x-3 text-gray-700 p-2 rounded-md font-medium focus:shadow-outline">
+                <p  className="flex items-center space-x-3 text-gray-700 p-2 rounded-md font-medium focus:shadow-outline">
                   <span>
                     <img src="https://res.cloudinary.com/setiyawan/image/upload/v1614382768/plugin/Group_15_w8owxd.png" alt="" />
                   </span>
                   <span>Romance</span>
-                </a>
+                </p>
               </li>
               <li>
-                <a  className="flex items-center space-x-3 text-gray-700 p-2 rounded-md font-medium focus:shadow-outline">
+                <p  className="flex items-center space-x-3 text-gray-700 p-2 rounded-md font-medium focus:shadow-outline">
                   <span>
                     <img src="https://res.cloudinary.com/setiyawan/image/upload/v1614382768/plugin/Group_14_av55s5.png" alt="" />
                   </span>
                   <span>Science</span>
-                </a>
+                </p>
               </li>
               <li>
-                <a  className="flex items-center space-x-3 text-gray-700 p-2 rounded-md font-medium focus:shadow-outline">
+                <p  className="flex items-center space-x-3 text-gray-700 p-2 rounded-md font-medium focus:shadow-outline">
                   <span>
                     <img src="https://res.cloudinary.com/setiyawan/image/upload/v1614382768/plugin/Group_13_qbju74.png" alt="" />
                   </span>
                   <span>Sports</span>
-                </a>
+                </p>
               </li>
             </ul>
           </div>

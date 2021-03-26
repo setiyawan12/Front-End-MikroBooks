@@ -29,18 +29,18 @@ export default class Navbar extends Component {
               </div>
             </div>
             {/* end search bar */}
-            <a className="flex order-first lg:order-none lg:w-1/5 title-font font-medium items-center text-gray-900 lg:items-center lg:justify-center mb-4 md:mb-0">
+            <p className="flex order-first lg:order-none lg:w-1/5 title-font font-medium items-center text-gray-900 lg:items-center lg:justify-center mb-4 md:mb-0">
               <Link to="/home">
               <img src="https://res.cloudinary.com/setiyawan/image/upload/v1614352484/plugin/Logo_vuzih9.png" alt="" srcSet className="h-9" />
               </Link>
-            </a>
+            </p>
             {/* login */}
             <div className="flex-initial">
               <div className="flex justify-end items-center relative">
                 <div className="flex mr-4 items-center">
                   <div className="inline-block mr-2 mt-2">
                     <button type="button" className="focus:outline-dark text-gray-500 text-md py-2.5 px-5 rounded-full py-6 px-12 border border-gray-400 hover:bg-blue-200">
-                      <a>Login</a>
+                      <p>Login</p>
                     </button>
                   </div>
                   <div className="block relative">

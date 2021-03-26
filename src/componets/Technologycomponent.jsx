@@ -12,13 +12,13 @@ export default class Category extends Component {
         <div className="flex flex-wrap pb-2 mx-6">
           <div className="p-4 lg:w-1/5">
             <div className="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
-              <a>
+              <p>
                 <img
                   alt="team"
                   className="flex-shrink-0 rounded-lg w-32 h-36 object-cover object-center sm:mb-0 mb-4"
                   src="https://res.cloudinary.com/setiyawan/image/upload/v1614186202/plugin/image_12_rvbetu.png"
                 />
-              </a>
+              </p>
               <div className="flex-grow sm:pl-5">
                 <h2 className="title-font font-bold text-gray-700">
                   Jak Of The bushveld
@@ -68,13 +68,13 @@ export default class Category extends Component {
           </div>
           <div className="p-4 lg:w-1/5">
             <div className="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
-              <a>
+              <p>
                 <img
                   alt="team"
                   className="flex-shrink-0 rounded-lg w-32 h-36 object-cover object-center sm:mb-0 mb-4"
                   src="https://res.cloudinary.com/setiyawan/image/upload/v1614186202/plugin/image_12_rvbetu.png"
                 />
-              </a>
+              </p>
               <div className="flex-grow sm:pl-5">
                 <h2 className="title-font font-bold text-gray-700">
                   Jak Of The bushveld
@@ -124,13 +124,13 @@ export default class Category extends Component {
           </div>
           <div className="p-4 lg:w-1/5">
             <div className="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
-              <a>
+              <p>
                 <img
                   alt="team"
                   className="flex-shrink-0 rounded-lg w-32 h-36 object-cover object-center sm:mb-0 mb-4"
                   src="https://res.cloudinary.com/setiyawan/image/upload/v1614186202/plugin/image_12_rvbetu.png"
                 />
-              </a>
+              </p>
               <div className="flex-grow sm:pl-5">
                 <h2 className="title-font font-bold text-gray-700">
                   Jak Of The bushveld
@@ -180,13 +180,13 @@ export default class Category extends Component {
           </div>
           <div className="p-4 lg:w-1/5">
             <div className="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
-              <a>
+              <p>
                 <img
                   alt="team"
                   className="flex-shrink-0 rounded-lg w-32 h-36 object-cover object-center sm:mb-0 mb-4"
                   src="https://res.cloudinary.com/setiyawan/image/upload/v1614186202/plugin/image_12_rvbetu.png"
                 />
-              </a>
+              </p>
               <div className="flex-grow sm:pl-5">
                 <h2 className="title-font font-bold text-gray-700">
                   Jak Of The bushveld
@@ -236,13 +236,13 @@ export default class Category extends Component {
           </div>
           <div className="p-4 lg:w-1/5">
             <div className="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
-              <a>
+              <p>
                 <img
                   alt="team"
                   className="flex-shrink-0 rounded-lg w-32 h-36 object-cover object-center sm:mb-0 mb-4"
                   src="https://res.cloudinary.com/setiyawan/image/upload/v1614186202/plugin/image_12_rvbetu.png"
                 />
-              </a>
+              </p>
               <div className="flex-grow sm:pl-5">
                 <h2 className="title-font font-bold text-gray-700">
                   Jak Of The bushveld
@@ -292,13 +292,13 @@ export default class Category extends Component {
           </div>
           <div className="p-4 lg:w-1/5">
             <div className="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
-              <a>
+              <p>
                 <img
                   alt="team"
                   className="flex-shrink-0 rounded-lg w-32 h-36 object-cover object-center sm:mb-0 mb-4"
                   src="https://res.cloudinary.com/setiyawan/image/upload/v1614186202/plugin/image_12_rvbetu.png"
                 />
-              </a>
+              </p>
               <div className="flex-grow sm:pl-5">
                 <h2 className="title-font font-bold text-gray-700">
                   Jak Of The bushveld
