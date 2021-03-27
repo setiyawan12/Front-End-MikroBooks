@@ -13,6 +13,7 @@ import Addbooks from "./pages/user/Addbooks";
 import Borrowpage from "./pages/user/Borrowpage";
 import Confrim from "./pages/user/Confrim";
 import Description from './pages/Description'
+import List from "./componets/List";
 
 function App() {
   return (
@@ -30,6 +31,7 @@ function App() {
     <Route path="/addbook" component={Addbooks}/>
     <Route path="/borrow" component={Borrowpage}/>
     <Route path="/confrim" component={Confrim}/>
+    <Route path="/list" component={List}/>
     </Switch>
     </BrowserRouter>
   );
