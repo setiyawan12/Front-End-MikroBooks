@@ -1,6 +1,7 @@
 import React, { Component } from "react";
-import axios from "axios";
-const api = "https://restfullbooks.herokuapp.com/";
+import { books } from '../services';
+// import axios from "axios";
+
 export default class List extends Component {
   constructor(props) {
     super(props);
@@ -12,11 +13,14 @@ export default class List extends Component {
   }
 
   componentDidMount() {
-    axios.get(api + "books/show").then((res) => {
-      this.setState({
-        books: res.data.data,
+    // services.
+    // console.log(books);
+    books().then((res) => {
+        this.setState({
+          books: res.data.data,
+        });
       });
-    });
+    // axios.get(api + "books/show")
   }
   render() {
     return (

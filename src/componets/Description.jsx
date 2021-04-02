@@ -1,6 +1,15 @@
 import React, { Component } from 'react'
 
 export default class Description extends Component {
+  state={
+    books:[]
+  }
+  componentDidMount(){
+    // let id = this.props.match.params.id;
+    // axios.get(id).then((res)=>{
+    //   console.log(res.data);
+    // })
+  }
     render() {
         return (
     <div>
