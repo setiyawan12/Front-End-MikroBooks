@@ -36,6 +36,7 @@ export default class Navbar extends Component {
             >
               <img
                 src="https://res.cloudinary.com/setiyawan/image/upload/v1614352484/plugin/Logo_vuzih9.png"
+                alt=""
               />
             </Link>
             <div
